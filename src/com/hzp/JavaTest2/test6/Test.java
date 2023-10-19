@@ -1,25 +1,18 @@
-package com.hzp.homework4.test;
+package com.hzp.JavaTest2.test6;
 
-import com.hzp.JavaTest2.test6.Rectangle;
-import com.hzp.homework4.pojo4_15.BankBusiness;
-import com.hzp.homework4.pojo7_14.Person;
-
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Scanner;
 
 /**
  * @BelongsProject: JavaSchool
- * @BelongsPackage: com.hzp.homework4.test
+ * @BelongsPackage: com.hzp.JavaTest2.test6
  * @Author: ASUS
- * @CreateTime: 2023-10-17  13:17
+ * @CreateTime: 2023-10-19  14:38
  * @Description: TODO
  * @Version: 1.0
  */
-//主程序类，定义两个时钟对象，输入一个时间值，初始化时钟对象1，然后输出两个时钟的值。
-//请在下面的【】处补充代码。
-
-import java.util.Scanner;
-
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         Rectangle[] rectangles=new Rectangle[10];
@@ -51,5 +44,3 @@ public class Main {
         }
     }
 }
-
-
